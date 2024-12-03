@@ -39,35 +39,37 @@ export default function Profile() {
           </div>
           <div className="grid grid-cols-1 gap-4 w-full">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/profile-praveen/"
+              target="_blank"
               className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-3 px-6 rounded-full flex items-center justify-center shadow-lg"
             >
               <FaLinkedin className="mr-2" />
               <span className="mx-auto">LinkedIn</span>
             </a>
             <a
-              href="#"
+              href="https://github.com/Silversoul-07"
+              target="_blank"
               className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-3 px-6 rounded-full flex items-center justify-center shadow-lg"
             >
               <FaGithub className="mr-2" />
               <span className="mx-auto">GitHub</span>
             </a>
             <a
-              href="#"
+              href="/portfolio"
               className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-3 px-6 rounded-full flex items-center justify-center shadow-lg"
             >
               <FaPortrait className="mr-2" />
               <span className="mx-auto">Portfolio</span>
             </a>
             <a
-              href="#"
+              href="/projects"
               className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-3 px-6 rounded-full flex items-center justify-center shadow-lg"
             >
               <FaProjectDiagram className="mr-2" />
               <span className="mx-auto">Projects</span>
             </a>
             <a
-              href="#"
+              href="/resume.pdf"
               className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-3 px-6 rounded-full flex items-center justify-center shadow-lg"
             >
               <FaFileDownload className="mr-2" />
